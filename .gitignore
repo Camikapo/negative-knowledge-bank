@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.env
+report.md
+bank_cache.json
+.venv/
+venv/
+.DS_Store
