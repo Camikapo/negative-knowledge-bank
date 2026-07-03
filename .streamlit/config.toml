@@ -1,0 +1,16 @@
+# Базовая тема Streamlit. Тёплый минимализм, приглушённая палитра.
+# Один акцентный цвет, никаких стандартных красных/фиолетовых.
+
+[theme]
+base = "light"
+primaryColor = "#2B4C3F"                     # глубокий сдержанный зелёный (кнопки, фокус)
+backgroundColor = "#FAFAF7"                  # тёплый почти-белый (основной фон)
+secondaryBackgroundColor = "#F0EEE9"         # чуть темнее (боковая панель, карточки)
+textColor = "#1F1F1F"                        # почти чёрный, но не 100%
+font = "sans serif"
+
+[client]
+toolbarMode = "minimal"                      # прячет ненужные кнопки Streamlit сверху
+
+[server]
+runOnSave = true                             # автообновление при сохранении файла
